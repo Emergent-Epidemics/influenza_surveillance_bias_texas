@@ -10,6 +10,7 @@ Individuals in low socioeconomic brackets are considered at-risk for developing 
 1. ILInet.combined.csv - US CDC FluView https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html. 
 2. Biosense2_resp_Dallase_Denton_Ellis_Johnson_Parker_Tarrant.csv - Weekly BioSense 2.0 data were extracted from an online repository (see link). Data are the percent of emergency department visits for upper respiratory infection, based on classification of free-text chief complaint entries. Data were collected from https://www.google.com/publicdata/explore?ds=z46e2n1b69u8mu_
 3. GFT-processed-weekEnding.csv.  Google Flu Trends data for "Texas", "Addison, TX", "Dallas, TX", "Ft. Worth, TX", "Irving, TX", "Plano, TX".  Google Flu Trends is offline, but data are archived here: https://www.google.org/flutrends/about/data/flu/us/data.txt.
+4.  Hospitalization data must be requested from the Texas Department of State Health Services Texas Health Care Information Collection (https://www.dshs.texas. gov/thcic/hospitals/Inpatientpudf.shtm).
 
 ### License
 (see LICENSE)
