@@ -1,1 +1,18 @@
-# influenza_surveillance_bias_texas
+## Code and data for: Socioeconomic bias in influenza surveillance
+
+### Citation
+Scarpino, S. V., Scott, J. G., Eggo, R. M., Clements, B., Dimitrov, N. B., & Meyers, L. A. _in press_. Socioeconomic bias in influenza surveillance. _PLoS Computational Biology_.
+
+### Abstract
+Individuals in low socioeconomic brackets are considered at-risk for developing influenza- related complications and often exhibit higher than average influenza-related hospitalization rates. This disparity has been attributed to various factors, including restricted access to preventative and therapeutic health care, limited sick leave, and household structure. Adequate influenza surveillance in these at-risk populations is a critical precursor to accurate risk assessments and effective intervention. However, the United States of America’s primary national influenza surveillance system (ILINet) monitors outpatient healthcare providers, which may be largely inaccessible to lower socioeconomic populations. Recent initiatives to incorporate Internet-source and hospital electronic medical records data into surveillance systems seek to improve the timeliness, coverage, and accuracy of outbreak detection and situational awareness. Here, we use a flexible statistical framework for integrating multiple surveillance data sources to evaluate the adequacy of traditional (ILINet) and next generation (BioSense 2.0 and Google Flu Trends) data for situational awareness of influenza across poverty levels. We find that ZIP Codes in the highest poverty quartile are a critical vulnerability for ILINet that the integration of next generation data fails to ameliorate.
+
+### Data
+1. ILInet.combined.csv - US CDC FluView https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html. 
+2. Biosense2_resp_Dallase_Denton_Ellis_Johnson_Parker_Tarrant.csv - Weekly BioSense 2.0 data were extracted from an online repository (see link). Data are the percent of emergency department visits for upper respiratory infection, based on classification of free-text chief complaint entries. Data were collected from https://www.google.com/publicdata/explore?ds=z46e2n1b69u8mu_
+3. GFT-processed-weekEnding.csv.  Google Flu Trends data for "Texas", "Addison, TX", "Dallas, TX", "Ft. Worth, TX", "Irving, TX", "Plano, TX".  Google Flu Trends is offline, but data are archived here: https://www.google.org/flutrends/about/data/flu/us/data.txt.
+
+### License
+(see LICENSE)
+
+## Additional license, warranty, and copyright information
+We provide a license for our code (see LICENSE) and do not claim ownership, nor the right to license, the data we have obtained nor any third-party software tools/code used in our analyses.  Please cite the appropriate agency, paper, and/or individual in publications and/or derivatives using these data, contact them regarding the legal use of these data, and remember to pass-forward any existing license/warranty/copyright information.  THE DATA AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE DATA AND/OR SOFTWARE OR THE USE OR OTHER DEALINGS IN THE DATA AND/OR SOFTWARE.
